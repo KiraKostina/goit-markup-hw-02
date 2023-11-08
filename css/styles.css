@@ -1,0 +1,60 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #fff;
+  line-height: 1.5;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+.link,
+.logo-head,
+.logo-foot {
+  text-decoration: none;
+}
+/* Стилі хедера */
+.logo-head {
+  color: #2e2f42;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+span {
+  color: #4d5ae5;
+}
+
+/* Стилі основні */
+.page-title {
+  background-color: #2e2f42;
+  color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.button {
+  background-color: #4d5ae5;
+  color: #fff;
+}
+/* Стилізація футера */
+.logo-foot {
+  color: #f4f4fd;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
