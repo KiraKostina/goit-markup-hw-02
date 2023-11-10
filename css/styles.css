@@ -73,6 +73,7 @@ span {
   background-color: #4d5ae5;
   color: #fff;
   text-align: center;
+  font-family: inherit;
 }
 
 .hero-btn:hover {
