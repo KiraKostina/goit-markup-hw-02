@@ -6,6 +6,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 ul,
@@ -16,18 +17,18 @@ ol {
 .link,
 .logo-head,
 .logo-foot,
-.contacts {
+.contacts-link {
   text-decoration: none;
 }
+
 /* Стилі хедера */
 .logo-head {
   color: #2e2f42;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -38,40 +39,115 @@ span {
 .link {
   color: #2e2f42;
   font-weight: 500;
-  letter-spacing: 0.32px;
 }
 
-.contacts {
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+.contacts-link {
   color: #434455;
-  font-style: normal;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  font-style: normal;
+  letter-spacing: 0.02em;
 }
-
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
+}
 /* Стилі основні */
-.page-title {
+.hero {
   background-color: #2e2f42;
+}
+.hero-title {
   color: #fff;
   text-align: center;
   font-size: 56px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.07;
-  letter-spacing: 1.12px;
 }
 
-.button {
+.hero-btn {
+  cursor: pointer;
   background-color: #4d5ae5;
   color: #fff;
+  text-align: center;
 }
+
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.feature-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.teams {
+  background-color: #f4f4fd;
+}
+
+.section-title {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+}
+.team-card {
+  background-color: #fff;
+}
+.team-member {
+  color: #2e2f42;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.position {
+  text-align: center;
+}
+
+.project-title {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /* Стилізація футера */
+
+.page-footer {
+  background-color: #2e2f42;
+}
 .logo-foot {
   color: #f4f4fd;
   font-family: Raleway;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.foot-text {
+  color: #f4f4fd;
 }
